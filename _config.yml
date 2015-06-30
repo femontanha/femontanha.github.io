@@ -1,0 +1,109 @@
+# Site settings
+title: femontanha (fellipe azambuja)
+description: front-end developer
+favicon: /assets/img/avatar.JPG
+baseurl:
+url: http://femontanha.github.io
+rss_url: /pages/atom.xml
+
+# Build settings
+markdown: kramdown
+
+# Author settings
+author:
+  name: Fellipe Azambuja
+  title: Front-end Developer
+  address: Indaiatuba, Brazil
+  email: femontanhanew@gmail.com
+  link: http://femontanha.github.io
+  weibo:
+  github: femontanha
+  linkedin: fellipe-azambuja/39/779/808
+  twitter: femontanha
+  gavatar: /assets/img/avatar.JPG
+  workHistory:
+    - work1:
+      company: MB3 Inteligência de Negócios
+      location: Campinas, Brazil
+      title: Analista Programador Front-end Sênior
+      started: 2015
+      duration: (2015 - Present)
+      description:
+    - work2:
+      company: F.biz
+      location: São Paulo, Brazil
+      title: Analista Programador Front-end Sênior
+      started: 2010
+      duration: (2010 - 2015)
+      description:
+    - work3:
+      company: BuscaPé (E-commerce)
+      location: São Paulo, Brazil
+      title: Front-end programmer
+      started: 2009
+      duration: (2009 - 2009)
+      description:
+    - work3:
+      company: UOL (Universo Online)
+      location: São Paulo, Brazil
+      title: Designer
+      started: 2007
+      duration: (2007 - 2007)
+      description:
+    - work5:
+      company: Guia-se
+      location: Indaiatuba, Brazil
+      title: Web-designer
+      started: 2004
+      duration: (2004 - 2006)
+      description:
+  educationHistory:
+    - education1:
+      organization: Universidade Senac Santo Amaro
+      degree: Bachelor
+      major: Interface Digital Design
+      started: 2006
+      duration: (2006 - 2010)
+      description:
+    - education1:
+      organization: Alura
+      degree: Rails
+      major: Begginer to Advanced
+      started: 2015
+      duration: (2015)
+      description: http://www.alura.com.br
+  languages:
+    - language1:
+      name: Portuguese
+      proficiency: Native
+    - language2:
+      name: English
+      proficiency: Intermediate
+  programmingSkills:
+    - skill1:
+      name: HTML
+      percentage: 100%
+    - skill2:
+      name: CSS
+      percentage: 100%
+    - skill3:
+      name: Responsive Design
+      percentage: 100%
+    - skill4:
+      name: Atomic Design
+      percentage: 100%
+    - skill5:
+      name: JS
+      percentage: 70%
+    - skill6:
+      name: Ruby/Rails
+      percentage: 20%
+    - skill7:
+      name: PHP
+      percentage: 20%
+    - skill8:
+      name: Grunt/Gulp
+      percentage: 100%
+    - skill9:
+      name: Kanban/Scrum
+      percentage: 100%
