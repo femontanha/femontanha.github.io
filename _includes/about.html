@@ -1,0 +1,34 @@
+
+<section id="about" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      {% for member in site.people %}
+      <div class="col-sm-4 col-sm-offset-4">
+        <div class="team-member">
+          <img src="{{ member.pic }}" class="img-responsive img-circle" alt="{{ member.name }}" />
+          <h4>{{ member.name }}</h4>
+          <p class="text-muted">{{ member.position }}</p>
+          <ul class="list-inline social-buttons">
+            {% for network in member.social %}
+              <li>
+                <a href="{{ network.url }}" target="_blank">
+                  <i class="fa fa-{{ network.title }}"></i>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <p class="large text-muted">
+          My Name is Fellipe Azambuja, I'm front-end developer, gamer, and podcaster. I love what I do, write code to bring stuff to life!
+          I've been working as a developer (designer/programmer) since 2006, initially creating layout for websites, flash banners and a little back-end programmer and then, developing rich visual websites with focus in front-end.
+          In my free time I like to play games, watch series and BBQ!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

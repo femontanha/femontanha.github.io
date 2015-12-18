@@ -3,13 +3,15 @@
 
   {% include head.html %}
 
-  <body>
-
-    <div class="page-content">
-        {{ content }}
-    </div>
-
-    <script type="javascript" src="{{ "/js/home.js" | prepend: site.baseurl }}"></script>
+  <body id="page-top" class="index">
+    {% include header.html %}
+    {% include about.html %}
+    {% include portfolio_grid.html %}
+    {% include services.html %}
+    {% include work.html %}
+    {% include recommendations.html %}
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
   </body>
-
 </html>

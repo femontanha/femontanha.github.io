@@ -1,0 +1,14 @@
+---
+title: Medicinia APP
+subtitle: Hybrid Application
+layout: default
+modal-id: 2
+img: medicinia-app.png
+thumbnail: medicinia-app-thumbnail.png
+alt: image-alt
+project-date: 2015
+client: Medicinia
+tools: cordova, backbonejs, sass, grunt, rails
+description:
+
+---

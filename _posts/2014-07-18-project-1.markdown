@@ -1,0 +1,13 @@
+---
+title: Medicinia
+subtitle: Website
+layout: default
+modal-id: 1
+img: medicinia.png
+thumbnail: medicinia-thumbnail.png
+alt: image-alt
+project-date: 2015
+client: Medicinia
+tools: Rails, sass, neat, bourbon
+description:
+---

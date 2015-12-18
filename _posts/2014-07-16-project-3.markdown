@@ -1,0 +1,14 @@
+---
+title: Multiplus
+subtitle: Product website
+layout: default
+modal-id: 3
+img: multiplus.png
+thumbnail: multiplus-thumbnail.png
+alt: image-alt
+project-date: 2014
+client: F.biz 
+tools: html, sass, bourbon, jquery, requirejs, styleguide, grunt, java
+description:
+
+---

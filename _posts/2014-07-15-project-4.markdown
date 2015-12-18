@@ -1,0 +1,14 @@
+---
+title: Netshoes
+subtitle: Product website
+layout: default
+modal-id: 4
+img: netshoes.png
+thumbnail: netshoes-thumbnail.png
+alt: image-alt
+project-date: 2014
+client: Netshoes
+tools: html, sass, bourbon, jquery, requirejs, styleguide, grunt, java
+description:
+
+---

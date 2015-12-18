@@ -1,0 +1,14 @@
+---
+title: DevNaEstrada
+subtitle: Podcast website
+layout: default
+modal-id: 6
+img: devnaestrada.png
+thumbnail: devnaestrada-thumbnail.png
+alt: image-alt
+project-date: 2015
+client: devnaestrada
+tools: html, sass, bourbon, jekyll
+description:
+
+---

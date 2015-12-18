@@ -3,25 +3,18 @@ layout: default
 ---
 
 <div class="home">
-  <p class="home__name">
-    Hi! It's me 
-    <span class="change js-hidden">femontanha</span>
-    <!-- <span class="change js-hidden">Azambuja</span>
-    <span class="change js-hidden">Fellipe Azambuja</span>
-    <span class="change js-hidden">Fe</span> -->
-  </p>
-  <p class="home__role">
-    I consider myself a good 
-    <span class="change js-hidden">front-end developer</span>
-    <!-- <span class="change js-hidden">Geek</span>
-    <span class="change js-hidden">son</span>
-    <span class="change js-hidden">husband</span> -->
-  </p>
-  <p class="home__skills">
-    Improving skills like 
-    <!-- <span class="change js-hidden">AngularJS</span>
-    <span class="change js-hidden">React.js</span>
-    <span class="change js-hidden">WebApps</span> -->
-    <span class="change js-hidden">Building Interfaces</span>
-  </p>
+
+  <h1>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
 </div>

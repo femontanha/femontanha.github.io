@@ -1,21 +1,39 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+url: https://femontanha.github.io
+baseurl: ""
 
 # Site settings
-title: Front-end Developer
+title: femontanha
 email: femontanhanew@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+description: "Front-end Developer located in Brazil"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 3498db
+  secondary: 2980b9
+  secondary-dark: 333
+
+# Team names, titles and social links
+people:
+- name: Fellipe Azambuja
+  pic: http://pbs.twimg.com/profile_images/657406409341030400/4YB5kvoX.jpg
+  position: Front-end Developer
+  social:
+    - title: twitter
+      url: http://www.twitter.com/femontanha
+    - title: github
+      url: http://www.github.com/femontanha
+    - title: linkedin
+      url: http://www.linkedin.com/femontanha
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/femontanha
+  - title: linkedin 
+    url: https://www.linkedin.com/in/fellipe-azambuja-80877939
+  - title: github
+    url: http://github.com/jekyll
 
 # Build settings
 markdown: kramdown
+permalink: pretty
