@@ -29,10 +29,10 @@ people:
 social:
   - title: twitter
     url: http://twitter.com/femontanha
-  - title: linkedin 
+  - title: linkedin
     url: https://br.linkedin.com/in/femontanha
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/femontanha
 
 # Build settings
 markdown: kramdown
